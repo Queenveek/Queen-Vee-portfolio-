@@ -1,2 +1,2 @@
-# queen-vee-s-portfolio
+# *Queen Vee's portfolio*
 Technical Writing Portfolio and Samples 
