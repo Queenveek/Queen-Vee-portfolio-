@@ -1,0 +1,34 @@
+site_name: Queen Vee ❦ - Tech Writing Portfolio
+site_url: https://blockchain-vee.github.io/queen-vee-portfolio/  # change to match your actual URL later
+repo_url: https://github.com/Blockchain-Vee/queen-vee-portfolio
+
+theme:
+  name: material
+  features:
+    - content.code.copy
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - attr_list
+  - tables
+  - admonition
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Samples: []
+  - Resume: resume.md
